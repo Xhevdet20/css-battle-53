@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 300px;
+	width: 400px;
+	background: #19191A;
+	position: relative;
+}
+
+.a {
+  width: 150px;
+  height: 150px;
+  background: #4F77FF;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform : translate(-50%, 0);
+  top : 50px;
+}
+
+.b {
+  height: 125px;
+  width: 75px;
+  background: #F9E492;
+  position: absolute;
+  left: 125px;
+  top: 125px;
+}
+
+.c {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  background: #9AD5FF;
+  top: 125px;
+  left: 125px;
+  border-radius:  0 0 0 75px;
+}
